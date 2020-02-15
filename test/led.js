@@ -26,7 +26,7 @@ var in_data = {
 
 var mqtt = require('mqtt');
 
-var client = mqtt.connect("http://47.107.111.14:1883");
+var client = mqtt.connect("http://127.0.0.1:1883");
 
 client.on("connect", function () {//连接成功
     client.subscribe('in_led');//订阅输入指令

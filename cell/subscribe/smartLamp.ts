@@ -1,38 +1,31 @@
 import {SubTopic} from "../../src/SubTopic";
 import {Injectable} from "../../src/Injectable";
-
+import {Inject} from "../../src/Inject";
+import {LedSub} from "./LedSub";
+import 'reflect-metadata';
 
 
 @Injectable()
- class LedSub {
+class smartLamp {
+    @Inject()
+    private led:LedSub;
 
-
-    @SubTopic("/one")
+    @SubTopic("/one/smart")
     public ledOne( data:any) {
         console.log("this is one"+data.toString());
     }
 
-
-    @SubTopic("/two")
+    @SubTopic("/two/smart")
     public ledTwo(data:any){
 
         console.log("this is two"+data.toString());
     }
 
-    @SubTopic("/three")
+    @SubTopic("/three/smart")
     public ledThree(){
         console.log("this is three");
-
-    }
-    public display(){
-        console.log("this is display");
     }
 
 }
 
-export {LedSub};
-
-
-
-
-
+export {smartLamp};

@@ -1,10 +1,21 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+/**
+ *定义一个容器类，用于保存实例
+ */
 var Ioc = /** @class */ (function () {
     function Ioc() {
-        this.SubMap = new Map();
-        this.instanceMap = new Map();
+        this.SubMap = new Map(); //保存所有的订阅方法
+        this.providerMap = new Map(); //保存原型类
+        this.instanceMap = new Map(); //保存实例化的类
     }
+    Ioc.prototype.setProvider = function (key, value) {
+        if (!this.providerMap.has(key))
+            this.providerMap.set(key, value);
+    };
+    Ioc.prototype.getProvider = function (key) {
+        return this.providerMap.get(key);
+    };
     Ioc.prototype.getSubMap = function () {
         return this.SubMap;
     };
@@ -32,13 +43,10 @@ var Ioc = /** @class */ (function () {
             return undefined;
         }
     };
-    Ioc.prototype.fork = function () {
-        var childInjector = new Ioc();
-        childInjector.parentInjector = this;
-        return childInjector;
-    };
     return Ioc;
 }());
-exports.Ioc = Ioc;
+/**
+ *    导出类的对象
+ */
 exports.rootInjector = new Ioc();
 //# sourceMappingURL=ioc.js.map

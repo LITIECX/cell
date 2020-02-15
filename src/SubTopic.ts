@@ -1,6 +1,6 @@
 
-import {Ioc, rootInjector} from "./ioc";
-import {LedSub} from "../cell/subscribe/LedSub";
+import {rootInjector} from "./ioc";
+
 
 
 export function SubTopic(params:any) {

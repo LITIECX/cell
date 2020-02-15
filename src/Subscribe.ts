@@ -1,5 +1,5 @@
 
-import {Ioc, rootInjector} from "./ioc";
+
 
 
 export function Subscribe(target:any){ //无参装饰器

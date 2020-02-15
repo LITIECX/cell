@@ -1,8 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7eea70cd-93a8-427b-b59b-6e7793e57739" name="Default Changelist" comment="V.0.1基本细胞核架构完成。">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7eea70cd-93a8-427b-b59b-6e7793e57739" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cell/subscribe/smartLamp.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inject.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Injectable.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PubTopic.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Publish.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test1/ioc.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test1/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test1/news.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cell/publish/SendData.js" beforeDir="false" afterPath="$PROJECT_DIR$/cell/publish/SendData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cell/publish/SendData.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/cell/publish/SendData.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cell/subscribe/HomeLed.js" beforeDir="false" afterPath="$PROJECT_DIR$/cell/subscribe/HomeLed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cell/subscribe/HomeLed.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/cell/subscribe/HomeLed.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cell/subscribe/LedSub.js" beforeDir="false" afterPath="$PROJECT_DIR$/cell/subscribe/LedSub.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cell/subscribe/LedSub.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/cell/subscribe/LedSub.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cell/subscribe/LedSub.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cell/subscribe/LedSub.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SubData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SubData.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SubData.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SubTopic.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/SubTopic.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SubTopic.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/SubTopic.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ioc.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ioc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ioc.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/ioc.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ioc.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ioc.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subscribe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Subscribe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subscribe.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Subscribe.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subscribe.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Subscribe.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/led.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/led.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,33 +52,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/led.js">
+        <entry file="file://$PROJECT_DIR$/src/Inject.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1107">
-              <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cell/subscribe/LedSub.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cell/subscribe/HomeLed.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="972">
-              <caret line="36" column="53" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
+            <state relative-caret-position="84">
+              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -50,59 +63,57 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SubTopic.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+            <state relative-caret-position="140">
+              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PubTopic.ts">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Publish.ts">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cell/subscribe/LedSub.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-420">
+              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
               <folding>
-                <element signature="e#1#41#0" expanded="true" />
+                <element signature="e#0#44#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main.ts">
+        <entry file="file://$PROJECT_DIR$/src/Subscribe.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="3" column="40" lean-forward="true" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-              <folding>
-                <element signature="e#1#49#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="476">
+              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cell/publish/SendData.ts">
+        <entry file="file://$PROJECT_DIR$/src/Injectable.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+            <state relative-caret-position="252">
+              <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/subscribe.ts">
+        <entry file="file://$PROJECT_DIR$/cell/subscribe/smartLamp.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SubData.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="64" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ioc.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1269">
-              <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+            <state relative-caret-position="84">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -136,7 +147,6 @@
         <option value="$PROJECT_DIR$/switch.js" />
         <option value="$PROJECT_DIR$/cell.js" />
         <option value="$PROJECT_DIR$/led.js" />
-        <option value="$PROJECT_DIR$/tsconfig.json" />
         <option value="$PROJECT_DIR$/subcript.ts" />
         <option value="$PROJECT_DIR$/mqtt.ts" />
         <option value="$PROJECT_DIR$/hello.ts" />
@@ -160,16 +170,28 @@
         <option value="$PROJECT_DIR$/cell/sub/LedSub.ts" />
         <option value="$PROJECT_DIR$/cell/subscribe/HomeLed.ts" />
         <option value="$PROJECT_DIR$/cell/hello.ts" />
-        <option value="$PROJECT_DIR$/src/subscribe.ts" />
         <option value="$PROJECT_DIR$/src/index.ts" />
         <option value="$PROJECT_DIR$/src/SubData.ts" />
-        <option value="$PROJECT_DIR$/src/SubTopic.ts" />
-        <option value="$PROJECT_DIR$/cell/subscribe/LedSub.ts" />
-        <option value="$PROJECT_DIR$/test/led.js" />
-        <option value="$PROJECT_DIR$/src/ioc.ts" />
-        <option value="$PROJECT_DIR$/src/main.ts" />
         <option value="$PROJECT_DIR$/cell/publish.ts" />
         <option value="$PROJECT_DIR$/cell/publish/SendData.ts" />
+        <option value="$PROJECT_DIR$/test1/news.ts" />
+        <option value="$PROJECT_DIR$/test1/main.ts" />
+        <option value="$PROJECT_DIR$/test1/ioc.ts" />
+        <option value="$PROJECT_DIR$/src/SubTopic.ts" />
+        <option value="$PROJECT_DIR$/test/led.js" />
+        <option value="$PROJECT_DIR$/src/subscribe.ts" />
+        <option value="$PROJECT_DIR$/src/ioc.ts" />
+        <option value="$PROJECT_DIR$/src/Inject.js" />
+        <option value="$PROJECT_DIR$/tsconfig.json" />
+        <option value="$PROJECT_DIR$/cell/subscribe/LedSub.ts" />
+        <option value="$PROJECT_DIR$/src/main.ts" />
+        <option value="$PROJECT_DIR$/cell/subscribe/smartLamp.ts" />
+        <option value="$PROJECT_DIR$/src/Inject.ts" />
+        <option value="$PROJECT_DIR$/src/Injectable.ts" />
+        <option value="$PROJECT_DIR$/src/PubTopic.ts" />
+        <option value="$PROJECT_DIR$/src/Subscribe.ts" />
+        <option value="$PROJECT_DIR$/src/Publish.ts" />
+        <option value="$PROJECT_DIR$/src/PubData.ts" />
       </list>
     </option>
   </component>
@@ -180,10 +202,10 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="226" />
-    <option name="y" value="54" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="x" value="732" />
+    <option name="y" value="177" />
+    <option name="width" value="1240" />
+    <option name="height" value="673" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -191,7 +213,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -225,9 +246,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -262,52 +285,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.led.js">
-    <configuration name="HomeLed.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/cell/subscribe/HomeLed.js" working-dir="$PROJECT_DIR$/cell/subscribe">
-      <method v="2" />
-    </configuration>
-    <configuration name="LedSub.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/cell/subscribe/LedSub.js" working-dir="$PROJECT_DIR$/cell/subscribe">
-      <method v="2" />
-    </configuration>
-    <configuration name="Unnamed" type="NodeJSConfigurationType" nameIsGenerated="true" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="hello.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test/hello.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="ioc.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="ioc.js" working-dir="$PROJECT_DIR$/cell">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.main.js">
     <configuration name="led.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="led.js" working-dir="$PROJECT_DIR$/test">
       <method v="2" />
     </configuration>
-    <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/main.js" working-dir="$PROJECT_DIR$">
+    <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="main.js" working-dir="$PROJECT_DIR$/src">
       <method v="2" />
     </configuration>
-    <configuration name="subcript.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test/subcript.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="test.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="test.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Node.js.HomeLed.js" />
-      <item itemvalue="Node.js.Unnamed" />
-      <item itemvalue="Node.js.test.js" />
-      <item itemvalue="Node.js.hello.js" />
-      <item itemvalue="Node.js.subcript.js" />
-      <item itemvalue="Node.js.ioc.js" />
-      <item itemvalue="Node.js.main.js" />
-      <item itemvalue="Node.js.LedSub.js" />
-      <item itemvalue="Node.js.led.js" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.led.js" />
         <item itemvalue="Node.js.main.js" />
-        <item itemvalue="Node.js.LedSub.js" />
-        <item itemvalue="Node.js.ioc.js" />
-        <item itemvalue="Node.js.subcript.js" />
+        <item itemvalue="Node.js.led.js" />
       </list>
     </recent_temporary>
   </component>
@@ -340,7 +328,16 @@
       <workItem from="1578828423244" duration="6184000" />
       <workItem from="1578835409864" duration="335000" />
       <workItem from="1578873072152" duration="4853000" />
-      <workItem from="1578886805711" duration="515000" />
+      <workItem from="1578886805711" duration="2135000" />
+      <workItem from="1580548803574" duration="80000" />
+      <workItem from="1581131686408" duration="4668000" />
+      <workItem from="1581209239537" duration="77000" />
+      <workItem from="1581209344954" duration="10530000" />
+      <workItem from="1581250088136" duration="1518000" />
+      <workItem from="1581679221886" duration="1087000" />
+      <workItem from="1581730169493" duration="5234000" />
+      <workItem from="1581737447009" duration="7680000" />
+      <workItem from="1581759290283" duration="3041000" />
     </task>
     <task id="LOCAL-00001" summary="V.0.1基本细胞核架构完成。">
       <created>1578887087807</created>
@@ -349,31 +346,39 @@
       <option name="project" value="LOCAL" />
       <updated>1578887087807</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="V.0.1基本细胞核架构完成。">
+      <created>1578887402100</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578887402100</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109938000" />
+    <option name="totallyTimeSpent" value="145473000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16341592" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1870456" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3290461" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3280116" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22566845" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.34542817" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.12691772" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21059972" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38214785" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.3290461" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.21059972" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="TypeScript" order="9" weight="0.3280116" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.14469454" />
+      <window_info anchor="bottom" id="TypeScript" order="9" weight="0.32775453" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.24965133" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3290461" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -403,27 +408,35 @@
     <option name="version" value="1" />
     <option name="exactExcludedFiles">
       <list>
-        <option value="$PROJECT_DIR$/main.js" />
+        <option value="$PROJECT_DIR$/src/Injectable.js.map" />
+        <option value="$PROJECT_DIR$/src/Injectable.js" />
+        <option value="$PROJECT_DIR$/src/PubTopic.js.map" />
+        <option value="$PROJECT_DIR$/cell/publish/SendData.js.map" />
+        <option value="$PROJECT_DIR$/cell/publish/SendData.js" />
+        <option value="$PROJECT_DIR$/cell/subscribe/smartLamp.js" />
+        <option value="$PROJECT_DIR$/cell/subscribe/smartLamp.js.map" />
         <option value="$PROJECT_DIR$/src/SubData.js" />
+        <option value="$PROJECT_DIR$/src/PubTopic.js" />
         <option value="$PROJECT_DIR$/src/SubData.js.map" />
-        <option value="$PROJECT_DIR$/src/register.js.map" />
-        <option value="$PROJECT_DIR$/src/register.js" />
-        <option value="$PROJECT_DIR$/src/inject.js" />
-        <option value="$PROJECT_DIR$/src/inject.js.map" />
+        <option value="$PROJECT_DIR$/../es6/test.js" />
         <option value="$PROJECT_DIR$/cell/subscribe/HomeLed.js" />
         <option value="$PROJECT_DIR$/cell/subscribe/HomeLed.js.map" />
-        <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/index.js.map" />
+        <option value="$PROJECT_DIR$/../es6/test.js.map" />
         <option value="$PROJECT_DIR$/cell/subscribe/LedSub.js" />
         <option value="$PROJECT_DIR$/cell/subscribe/LedSub.js.map" />
         <option value="$PROJECT_DIR$/src/main.js" />
-        <option value="$PROJECT_DIR$/main.js.map" />
-        <option value="$PROJECT_DIR$/src/SubData.js.map" />
-        <option value="$PROJECT_DIR$/src/SubData.js" />
-        <option value="$PROJECT_DIR$/cell/publish.js" />
-        <option value="$PROJECT_DIR$/cell/publish.js.map" />
-        <option value="$PROJECT_DIR$/cell/publish/SendData.js" />
-        <option value="$PROJECT_DIR$/cell/publish/SendData.js.map" />
+        <option value="$PROJECT_DIR$/test1/main.js" />
+        <option value="$PROJECT_DIR$/test1/main.js.map" />
+        <option value="$PROJECT_DIR$/test1/ioc.js.map" />
+        <option value="$PROJECT_DIR$/test1/ioc.js" />
+        <option value="$PROJECT_DIR$/test1/news.js" />
+        <option value="$PROJECT_DIR$/test1/news.js.map" />
+        <option value="$PROJECT_DIR$/src/Inject.js.map" />
+        <option value="$PROJECT_DIR$/src/Inject.js" />
+        <option value="$PROJECT_DIR$/src/Publish.js.map" />
+        <option value="$PROJECT_DIR$/src/Publish.js" />
+        <option value="$PROJECT_DIR$/src/PubData.js.map" />
+        <option value="$PROJECT_DIR$/src/PubData.js" />
       </list>
     </option>
   </component>
@@ -452,63 +465,26 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="V.0.1基本细胞核架构完成。" />
     <option name="LAST_COMMIT_MESSAGE" value="V.0.1基本细胞核架构完成。" />
   </component>
-  <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="NodeJSConfigurationType">
-        <watch expression="module" />
-      </configuration>
-    </watches-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../mqtt.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.js" />
-    <entry file="file://$PROJECT_DIR$/../../毕设资料/geek-nodejs-master/chapter2/初试&amp;石头剪刀布游戏/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../毕设资料/geek-nodejs-master/chapter2/初试&amp;石头剪刀布游戏/spr.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35" selection-start-column="35" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cell/mqtt.js" />
-    <entry file="file://$PROJECT_DIR$/test/subcript.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/switch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cell/ioc.js" />
-    <entry file="file://$PROJECT_DIR$/cell/ioc.js.map" />
-    <entry file="file://$PROJECT_DIR$/test/hello.js.map">
-      <provider editor-type-id="sourcemapFileViewerProvider" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cell/ioc.ts" />
-    <entry file="file://$PROJECT_DIR$/cell/mqtt.ts" />
     <entry file="file://$PROJECT_DIR$/src/ioc.js.map">
       <provider editor-type-id="sourcemapFileViewerProvider" />
       <provider selected="true" editor-type-id="text-editor" />
@@ -539,20 +515,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/register.js" />
-    <entry file="file://$PROJECT_DIR$/src/subscribe.js">
+    <entry file="file://$PROJECT_DIR$/src/Subscribe.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/node_modules/_reflect-metadata@0.1.13@reflect-metadata/Reflect.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="540" selection-start-line="540" selection-end-line="540" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/node_modules/_reflect-metadata@0.1.13@reflect-metadata/Reflect.js" />
     <entry file="file://$PROJECT_DIR$/test/subcript.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
@@ -567,43 +537,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/inject.ts" />
     <entry file="file://$PROJECT_DIR$/src/register.ts" />
-    <entry file="file://$USER_HOME$/node_modules/_mqtt@3.0.0@mqtt/types/lib/client.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1755">
-          <caret line="99" column="41" selection-start-line="99" selection-start-column="41" selection-end-line="99" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/hello.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/node_modules/_mqtt@3.0.0@mqtt/types/lib/connect/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/node/node_global/node_modules/typescript/lib/lib.dom.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324783">
-          <caret line="12042" column="80" selection-start-line="12042" selection-start-column="80" selection-end-line="12042" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/node_modules/_mqtt@3.0.0@mqtt/types/lib/client.d.ts" />
+    <entry file="file://$USER_HOME$/node_modules/_mqtt@3.0.0@mqtt/types/lib/connect/index.d.ts" />
     <entry file="file://$PROJECT_DIR$/test/cell.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -611,9 +547,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/subscribe.js.map">
+    <entry file="file://$PROJECT_DIR$/src/Subscribe.js.map">
       <provider editor-type-id="sourcemapFileViewerProvider" />
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cell/publish.ts" />
+    <entry file="file://$PROJECT_DIR$/test/hello.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test1/news.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test1/main.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test1/ioc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test1/news.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test1/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="e#1#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test1/ioc.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/led.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Adoc/装饰器.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/node_modules/_reflect-metadata@0.1.13@reflect-metadata/index.d.ts" />
+    <entry file="file://$USER_HOME$/node_modules/reflect-metadata/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Inject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="9" column="77" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mqtt.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://F:/node/node_global/node_modules/typescript/lib/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="7822" column="4" selection-start-line="7822" selection-start-column="4" selection-end-line="7822" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cell/publish/SendData.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cell/subscribe/HomeLed.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -622,76 +660,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cell/publish.ts" />
-    <entry file="file://$PROJECT_DIR$/test/led.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1107">
-          <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cell/subscribe/LedSub.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        <state>
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cell/subscribe/HomeLed.ts">
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="36" column="53" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SubTopic.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-          <folding>
-            <element signature="e#1#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="3" column="40" lean-forward="true" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-          <folding>
-            <element signature="e#1#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/subscribe.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SubData.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="64" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
+        <state relative-caret-position="308">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ioc.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1269">
-          <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+        <state relative-caret-position="224">
+          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cell/publish/SendData.ts">
+    <entry file="file://$PROJECT_DIR$/src/main.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        <state relative-caret-position="-140">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cell/subscribe/LedSub.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-420">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cell/subscribe/smartLamp.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PubData.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SubData.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Subscribe.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Publish.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PubTopic.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SubTopic.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Inject.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Injectable.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
         </state>
       </provider>
     </entry>
